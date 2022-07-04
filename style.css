@@ -8,11 +8,15 @@ h1 {
 
 }
 
+h2 {
+    font-size: 40px;
+}
+
 .orange {
     color: orange;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin: 100px;
 }
@@ -45,4 +49,36 @@ half-width-image {
 .dream-big {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.orange-color {
+    color: orange;
+}
+
+.exprience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exprience {
+
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    border-top: 7px solid blue;
+}
+
+#full-stack-developer {
+    border-left: 7px solid tomato;
+}
+
+#bayby-stack-developerS {
+    border-left: 7px solid blue;
+}
+
+footer {
+    text-align: center;
 }
